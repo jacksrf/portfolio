@@ -188,6 +188,8 @@ img {
 
 .icons {
 	margin: auto;
+	height: 100px;
+	width: 100px;
 }
 
 .arrow {
@@ -199,6 +201,7 @@ img {
 	height: 250px;
 	font-family: 'petitaMedium', Arial, sans-serif;
 	margin: auto;
+	text-align: center;
 }
 
 
