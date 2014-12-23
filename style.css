@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'petitaBold';
+  src: url('petita/PetitaBold.ttf');
+}
+
+@font-face {
+  font-family: 'petitaLight';
+  src: url('petita/PetitaLight.ttf');
+}
+
+@font-face {
+  font-family: 'petitaMedium';
+  src: url('petita/PetitaMedium.ttf');
+}
+
+
+header {
+	width:100%;
+	height: 5%;
+	/*position: fixed;*/
+	display: flex;
+	font-family: 'petitaLight', Arial, sans-serif;
+}
+
+#fixedHeader {
+	width: 100%;
+	height: 150px;
+	text-decoration: none;
+}
+
+#leftNav {
+	float: left;
+	width:100%;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	font-family: 'petitaLight', Arial, sans-serif;
+}
+
+/*#rightNav {
+	float:left;
+	width: 42%;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	font-family: 'petitaLight', Arial, sans-serif;
+}*/
+
+#leftNav a {
+	margin: auto;
+	text-decoration: none;
+	border: 1px solid black;
+	padding:10px;
+}
+
+/*#rightNav a {
+	margin: auto;
+	text-decoration: none;
+		border: 1px solid black;
+		padding:10px;
+}*/
+
+a:hover {
+	background-color: #00E5EE;
+}
+
+#logo {
+	margin-left:43%;
+	background-color: white;
+	height: 15%;
+	width: 15%;
+	float: left;
+
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	animation: fadin 2s;
+}
+
+#vidHolder {
+	position: absolute;
+	top: 150px;
+	width:100%;
+	background-color: white;
+
+}
+
+#bgvid {
+	/*position: absolute;*/
+	width: 100%;
+	height: 700px;
+	opacity: .4;
+
+	/*background: url(polina.jpg) no-repeat;
+	background-size: cover;*/
+}
+
+#headingWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	/*left: 24%;*/
+	top: 300px;
+	display:flex;
+}
+
+#heading {
+	margin: auto;
+}
+
+#nameHolder {
+	margin: auto;
+}
+
+#name {
+	text-align: center;
+	font-family: 'petitaMedium', Arial, sans-serif;
+	font-size: 3em;
+	letter-spacing: normal;
+	display: none;
+	padding-bottom: 15px;
+	padding-left: 45px;
+}
+
+#words {
+	width: 100%;
+	/*margin-right: 5%;
+	margin-left: 13%;*/
+  vertical-align: top;
+  display: flex;
+  zoom: 1;
+	font-family: 'petitaBold', Arial, sans-serif;
+}
+
+
+#one {
+	margin-left: 18%;
+	width: 20%;
+	display: none;
+}
+
+#two {
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: none;
+}
+
+#three {
+	width: 20%;
+	display: none;
+}
+
+#middle {
+	position: absolute;
+	top: 850;
+	width: 100%;
+	height: 850px;
+	display: flex;
+}
+
+#aboutMe {
+	margin: auto;
+	width: 100%;
+	height: 800px;
+	display: flex;
+}
+
+.container {
+	margin: auto;
+	width: 200;
+	height: 750px;
+}
+
+.circle {
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display: flex;
+}
+
+.icons {
+	margin: auto;
+}
+
+.arrow {
+	margin-left: 29px;
+	margin-top: 30px;
+}
+
+.container p {
+	height: 250px;
+	font-family: 'petitaMedium', Arial, sans-serif;
+	margin: auto;
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+//////////////////////////////////////
