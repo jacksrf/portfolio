@@ -23,6 +23,24 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+  $('#link1').click(function(){
+    $('#middle').ScrollTo();
+  })
+})
+
+$(document).ready(function(){
+  $('#link2').click(function(){
+    $('#projects').ScrollTo();
+  })
+})
+
+$(document).ready(function(){
+  $('#link3').click(function(){
+    $('#connect').ScrollTo();
+  })
+})
+
 // $("#aboutMe").click(function() {
 //     $('html, body').animate({
 //         scrollTop: $("#elementtoScrollToID").offset().top

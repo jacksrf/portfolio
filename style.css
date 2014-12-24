@@ -64,7 +64,7 @@ header {
 		padding:10px;
 }*/
 
-a:hover {
+#leftNav a:hover {
 	background-color: #00E5EE;
 }
 
@@ -199,11 +199,153 @@ img {
 
 .container p {
 	height: 250px;
-	font-family: 'petitaMedium', Arial, sans-serif;
+	font-family: 'petitaLight', Arial, sans-serif;
 	margin: auto;
 	text-align: center;
+	margin-top: 50px;
 }
 
+#projects {
+	position: absolute;
+	top: 1550;
+	width: 100%;
+	height: 675px;
+	display: flex;
+	border-top: 1px solid black;
+}
+
+#projectsContainer {
+	width: 100%;
+	height: 650px;
+	margin: auto;
+	display: flex;
+}
+
+#projects h1 {
+	/*width: 100%;*/
+	/*height: 50px;*/
+	/*text-align: center;*/
+}
+
+.project {
+	margin: auto;
+	height: 300px;
+	width: 40%;
+	display: flex;
+	border: 1px solid black;
+	font-family: 'petitaLight', Arial, sans-serif;
+}
+
+.project h2 {
+	margin: auto;
+	width: 40%;
+	height: 50px;
+	vertical-align: middle;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2em;
+}
+
+.project img {
+	margin: auto;
+	width: 90%;
+	height: 200px;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#connect {
+	position: absolute;
+	top: 2200px;
+	width: 100%;
+	height: 700px;
+	border-top: 1px solid black;
+	display: flex;
+}
+
+#email {
+	margin: auto;
+	width: 50%;
+	height: 500px;
+	display: flex;
+}
+
+#formHolder {
+	margin: auto;
+	border: 1px solid black;
+}
+
+#formHolder input {
+	width: 90%;
+}
+
+#nameInput {
+	height: 30px;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+#emailInput {
+	height: 30px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+#messageInput {
+	height: 200px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+#send {
+	width: 20%;
+	height: 50px;
+	margin-left:40%;
+	margin-bottom: 5%;
+}
+
+#socialSection {
+	/*position: absolute;*/
+	margin: auto;
+	width: 50%;
+	height: 700px;
+	float: right;
+	display: flex;
+	/*top: -500px;*/
+}
+
+#social {
+	margin-top: 10%;
+	height: 600px;
+	width: 100%;
+}
+
+.socialHolders {
+	height: 180px;
+	width: 45%;
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+
+}
+
+.socialHolders img {
+	margin: auto;
+	vertical-align: middle;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+.rows {
+	height: 200px;
+	display: flex;
+}
 
 
 html, body, div, span, applet, object, iframe,
