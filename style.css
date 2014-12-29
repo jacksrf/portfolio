@@ -179,7 +179,7 @@ img {
 }
 
 .circle {
-	border: 1px solid black;
+	border: 5px solid black;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
@@ -273,6 +273,15 @@ img {
 	font-family: 'petitaLight', Arial, sans-serif;
 	font-size: 2em;
 }
+
+/*#cover {
+position: abosolute;
+top:2200px;
+width: 50%;
+opacity: .5;
+background-color: gray;
+}*/
+
 
 #formHolder {
 	margin: auto;
@@ -402,6 +411,14 @@ input, textarea{
 	font-size:10px;
 	font-family: 'petitaLight', Arial, sans-serif;
   opacity: .7;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 html, body, div, span, applet, object, iframe,
