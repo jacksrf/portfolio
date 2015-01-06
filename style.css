@@ -20,10 +20,14 @@ header {
 	/*position: fixed;*/
 	display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
+
 }
 
 #fixedHeader {
 	width: 100%;
+  /*position: fixed;
+  z-index: 100;
+  background-color: white;*/
 	height: 150px;
 	text-decoration: none;
 }
@@ -298,7 +302,7 @@ background-color: gray;
 	margin-left: 5%;
 	text-align: center;
 }
-#formHolder
+
 
 #nameInput {
 	height: 30px;
