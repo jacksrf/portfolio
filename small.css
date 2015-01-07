@@ -16,7 +16,7 @@
 
 header {
 	width:100%;
-	height: 5%;
+	height: 19.5%;
 	/*position: fixed;*/
 	display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
@@ -28,15 +28,71 @@ header {
   /*position: fixed;
   z-index: 100;
   background-color: white;*/
-	height: 150px;
+	height: 100%;
 	text-decoration: none;
 }
 
-#smallNav {
+#bigNav {
+  height: 0;
+  widht: 0;
   visibility: hidden;
 }
 
-#bigNav {
+#bigNav img {
+  visibility: hidden;
+}
+
+#smallNav {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  z-index: 100%;
+}
+
+#smallNav img {
+ width: 40;
+ height: 40;
+}
+
+#dropDown {
+  float: right;
+  padding-left: 40px;
+  padding-top: 14px;
+  display:none;
+}
+
+#dropDown li{
+  float: left;
+  font-size: 12px;
+  padding-right: 1%;
+  padding-left: 1%;
+  font-family: 'petitaLight', Arial, sans-serif;
+  border-right: .5 solid black;
+  border-left: .5 solid black;
+
+}
+
+#dropDown li a {
+  text-decoration: none;
+}
+
+#dropdown #link1 {
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+#dropdown #link2 {
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+#dropdown #link3 {
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+
+/*#leftNav {
 	float: left;
 	width:100%;
 	height: 150px;
@@ -45,7 +101,7 @@ header {
 	left: 0;
 	display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
-}
+}*/
 
 /*#rightNav {
 	float:left;
@@ -58,12 +114,12 @@ header {
 	font-family: 'petitaLight', Arial, sans-serif;
 }*/
 
-#bigNav a {
+/*#leftNav a {
 	margin: auto;
 	text-decoration: none;
 	border: 1px solid black;
 	padding:10px;
-}
+}*/
 
 /*#rightNav a {
 	margin: auto;
@@ -72,11 +128,11 @@ header {
 		padding:10px;
 }*/
 
-#bigNav a:hover {
+/*#leftNav a:hover {
 	background-color: #00E5EE;
-}
+}*/
 
-#logo {
+/*#logo {
 	margin-left:43%;
 	background-color: white;
 	height: 15%;
@@ -89,11 +145,11 @@ img {
 	height: 150px;
 	width: 150px;
 	animation: fadin 2s;
-}
+}*/
 
 #vidHolder {
 	position: absolute;
-	top: 150px;
+	top: 50;
 	width:100%;
 	background-color: white;
 
@@ -104,6 +160,7 @@ img {
 	width: 100%;
 	height: 700px;
 	opacity: .4;
+  z-index: 0;
 
 	/*background: url(polina.jpg) no-repeat;
 	background-size: cover;*/
@@ -114,7 +171,8 @@ img {
 	width: 100%;
 	height: 100px;
 	/*left: 24%;*/
-	top: 300px;
+	top: 150px;
+  left: -20;
 	display:flex;
 }
 
@@ -134,6 +192,17 @@ img {
 	display: none;
 	padding-bottom: 15px;
 	padding-left: 45px;
+}
+
+@media (max-width: 516px) {
+  #name {
+    font-size: 1.5em;
+    padding-left: 61px;
+  }
+  #words {
+    font-size: 12px;
+    padding-left: 5px;
+  }
 }
 
 #words {
