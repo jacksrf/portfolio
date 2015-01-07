@@ -236,7 +236,7 @@ img {
 
 #middle {
 	position: absolute;
-	top: 450;
+	top: 525;
 	width: 100%;
 	height: 2550px;
 	display: flex;
@@ -286,7 +286,7 @@ img {
 
 #projects {
 	position: absolute;
-	top: 2100;
+	top: 2175;
 	width: 100%;
 	height: 675px;
 	display: flex;
@@ -313,11 +313,13 @@ img {
 	display: flex;
 	border: 1px solid black;
 	font-family: 'petitaLight', Arial, sans-serif;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .project h2 {
 	margin: auto;
-	width: 40%;
+	width: 80%;
 	height: 50px;
 	vertical-align: middle;
 	position: absolute;
@@ -337,7 +339,7 @@ img {
 
 #connect {
 	position: absolute;
-	top: 2800px;
+	top: 2875px;
 	width: 100%;
 	height: 700px;
 	/*border-top: 1px solid black;*/
