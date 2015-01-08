@@ -63,7 +63,8 @@ $(document).ready(function(){
 // })
 
 $(document).ready(function(){
-  $('#link3').click(function(){
+  $('a#link3').click(function(){
+    console.log("connect clicked")
     $('#connect').ScrollTo();
   })
 })
