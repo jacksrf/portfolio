@@ -390,7 +390,7 @@ img {
 
 .project {
 	margin: auto;
-	height: 50%;
+	height: 50px;
 	width: 80%;
 	display: block;
 	border: 1px solid black;

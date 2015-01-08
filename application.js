@@ -127,6 +127,29 @@ $(document).ready(function(){
   })
 })
 
+$(document).ready(function(){
+  $('a#biglink2').click(function(){
+    console.log("link2 clicked");
+    if (link2Clicks % 2 === 0) {
+      console.log("1")
+      // $('#dropDown').css("visibility","visible")
+      $('a#biglink1').fadeTo(1000, .1)
+      $('a#biglink3').fadeTo(1000, .1)
+      $('a#biglink4').fadeTo(1000, .1)
+      $('#bigprojectLinks').fadeIn(1000)
+    } else {
+      console.log("2")
+      // $('#dropDown').css("visibility","hidden")
+      $('#bigprojectLinks').fadeOut(1000)
+      $('a#biglink1').fadeTo(1000, 1)
+      $('a#biglink3').fadeTo(1000, 1)
+      $('a#biglink4').fadeTo(1000, 1)
+    }
+    link2Clicks += 1;
+    console.log("link2Clicks =" + link2Clicks)
+  })
+})
+
 
 $(document).ready(function() {
 // Tooltip only Text
