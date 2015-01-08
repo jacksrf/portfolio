@@ -18,6 +18,10 @@ header {
 	width:100%;
 	height: 19.5%;
 	/*position: fixed;*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
 
@@ -244,7 +248,11 @@ img {
 	/*margin-right: 5%;
 	margin-left: 13%;*/
   vertical-align: top;
-  display: flex;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
   zoom: 1;
 	font-family: 'petitaBold', Arial, sans-serif;
 }
@@ -273,6 +281,10 @@ img {
 	top: 525;
 	width: 100%;
 	height: 2550px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
@@ -295,6 +307,10 @@ img {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
@@ -323,6 +339,10 @@ img {
 	top: 2175;
 	width: 100%;
 	height: 675px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	/*border-top: 1px solid black;*/
 }
@@ -344,6 +364,10 @@ img {
 	margin: auto;
 	height: 300px;
 	width: 80%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	border: 1px solid black;
 	font-family: 'petitaLight', Arial, sans-serif;
@@ -384,6 +408,10 @@ img {
 	margin: auto;
 	width: 90%;
 	height: 500px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
 	font-size: 2em;
@@ -467,6 +495,10 @@ background-color: gray;
 	width: 100%;
 	height: 700px;
 	float: left;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	/*top: -500px;*/
 }
@@ -482,6 +514,10 @@ background-color: gray;
 	width: 45%;
 	border: 1px solid black;
 	margin: auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 
 }
@@ -505,6 +541,10 @@ background-color: gray;
 }
 .rows {
 	height: 200px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 }
 
