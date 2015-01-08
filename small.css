@@ -414,7 +414,7 @@ img {
 	font-size: 2em;
 }
 
-.project img {
+.project a img {
 	margin: auto;
 	width: 90%;
 	height: 200px;
