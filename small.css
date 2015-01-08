@@ -390,13 +390,9 @@ img {
 
 .project {
 	margin: auto;
-	height: 300px;
+	height: 50%;
 	width: 80%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+	display: block;
 	border: 1px solid black;
 	font-family: 'petitaLight', Arial, sans-serif;
   margin-top: 2.5%;
@@ -404,7 +400,7 @@ img {
 }
 
 .project h2 {
-	margin: auto;
+
 	width: 80%;
 	height: 50px;
 	vertical-align: middle;
@@ -414,13 +410,33 @@ img {
 	font-size: 2em;
 }
 
-.project a img {
-	margin: auto;
+.project img {
+	margin-top:16%;
+  margin-left: 5%;
 	width: 90%;
 	height: 200px;
 	vertical-align: middle;
 	display: inline-block;
 	border: 1px solid black;
+}
+
+.project button {
+  margin-top:5%;
+  margin-left: 40%;
+  height: 50px;
+  width: 20%;
+  vertical-align: middle;
+  display: inline-block;
+  font-family: 'petitaLight', Arial, sans-serif;
+	font-size: 1em;
+	background-color: white;
+	border: 1px solid black;
+	outline: 0;
+}
+
+.project button:hover {
+	background-color: #00E5EE;
+	/*text-transform: uppercase;*/
 }
 
 #connect {
