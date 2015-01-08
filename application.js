@@ -51,7 +51,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('a#link1').click(function(){
+  $('a#l').click(function(){
     $('#middle').ScrollTo();
   })
 })
@@ -62,15 +62,21 @@ $(document).ready(function(){
   })
 })
 
-// $(document).ready(function(){
-//   $('#link2').click(function(){
-//     $('#projects').ScrollTo();
-//   })
-// })
+$(document).ready(function(){
+  $('#chatAppLink').click(function(){
+    $('#projects').ScrollTo();
+  })
+})
 
 $(document).ready(function(){
-  $('a#link3').click(function(){
-    $('#connect').ScrollTo();
+  $('a#chatAppLink').click(function(){
+    $('#chatter').ScrollTo();
+  })
+})
+
+$(document).ready(function(){
+  $('a#calculatorLink').click(function(){
+    $('#calculator').ScrollTo();
   })
 })
 
