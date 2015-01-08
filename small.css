@@ -27,6 +27,10 @@ header {
 
 }
 
+#bgvid {
+  display: none;
+}
+
 #fixedHeader {
 	width: 100%;
   /*position: fixed;
@@ -203,15 +207,22 @@ img {
 	top: 100;
 	width:100%;
 	background-color: white;
+  display: flex;
 
+}
+
+#bgimage {
+  margin: auto;
+  padding-right: 24px;
+  padding-top: 64px;
 }
 
 #bgvid {
 	/*position: absolute;*/
-	width: 100%;
+	/*width: 100%;
 	height: 500px;
 	opacity: .4;
-  z-index: 0;
+  z-index: 0;*/
 
 	/*background: url(polina.jpg) no-repeat;
 	background-size: cover;*/
@@ -222,7 +233,7 @@ img {
 	width: 100%;
 	height: 100px;
 	/*left: 24%;*/
-	top: 150px;
+	top: 77px;
   left: -20;
 	display:flex;
 }
@@ -291,7 +302,7 @@ img {
 
 #middle {
 	position: absolute;
-	top: 525;
+	top: 800;
 	width: 100%;
 	height: 2550px;
 	display: -webkit-box;
@@ -334,7 +345,7 @@ img {
 }
 
 .arrow {
-	margin-left: 42px;
+	margin-left: 41px;
 	margin-top: 30px;
 }
 
@@ -344,12 +355,12 @@ img {
 	margin: auto;
 	text-align: center;
 	margin-top: 50px;
-  margin-left: 12px;
+  margin-left: 11px;
 }
 
 #projects {
 	position: absolute;
-	top: 2175;
+	top: 2500;
 	width: 100%;
 	height: 675px;
 	display: -webkit-box;
@@ -410,7 +421,7 @@ img {
 
 #connect {
 	position: absolute;
-	top: 2875px;
+	top: 3250px;
 	width: 100%;
 	height: 700px;
 	/*border-top: 1px solid black;*/
