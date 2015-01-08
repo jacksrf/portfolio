@@ -56,6 +56,12 @@ $(document).ready(function(){
   })
 })
 
+$(document).ready(function(){
+  $('a#biglink1').click(function(){
+    $('#middle').ScrollTo();
+  })
+})
+
 // $(document).ready(function(){
 //   $('#link2').click(function(){
 //     $('#projects').ScrollTo();
@@ -64,7 +70,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('a#link3').click(function(){
-    console.log("connect clicked")
+    $('#connect').ScrollTo();
+  })
+})
+
+$(document).ready(function(){
+  $('a#biglink3').click(function(){
     $('#connect').ScrollTo();
   })
 })
