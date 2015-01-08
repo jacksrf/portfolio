@@ -14,6 +14,7 @@
 // })
 
 var menuClicks = 2;
+var link2Clicks = 2;
 
 $(document).ready(function(){
   if($(window).width() > 768){
@@ -50,16 +51,16 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('#link1').click(function(){
+  $('a#link1').click(function(){
     $('#middle').ScrollTo();
   })
 })
 
-$(document).ready(function(){
-  $('#link2').click(function(){
-    $('#projects').ScrollTo();
-  })
-})
+// $(document).ready(function(){
+//   $('#link2').click(function(){
+//     $('#projects').ScrollTo();
+//   })
+// })
 
 $(document).ready(function(){
   $('#link3').click(function(){
@@ -78,10 +79,53 @@ $(document).ready(function(){
       console.log("2")
       // $('#dropDown').css("visibility","hidden")
       $('#dropDown').slideUp(1000)
+      $('#projectLinks').slideUp(1000)
+      if (link2Clicks % 2 !== 0) {
+        $('#projectLinks').slideUp(100)
+        $('#dropDown').removeClass('active')
+        $('a#link1').removeClass('active')
+        $('a#link3').removeClass('active2')
+        $('a#link4').removeClass('active')
+        $('a#link2').removeClass('active3')
+        $('#dropDown').css('padding-top', '14px')
+      }
+      link2Clicks += 1;
+      console.log("link2Clicks =" + link2Clicks)
     }
     menuClicks += 1;
+    console.log("menuClicks =" + menuClicks)
   })
 })
+
+$(document).ready(function(){
+  $('a#link2').click(function(){
+    console.log("link2 clicked");
+    if (link2Clicks % 2 === 0) {
+      console.log("1")
+      // $('#dropDown').css("visibility","visible")
+      $('#dropDown').addClass('active')
+      $('a#link1').addClass('active')
+      $('a#link3').addClass('active2')
+      $('a#link4').addClass('active')
+      $('a#link2').addClass('active3')
+      $('#dropDown').css('padding-top', '8px')
+      $('#projectLinks').slideDown(1000)
+    } else {
+      console.log("2")
+      // $('#dropDown').css("visibility","hidden")
+      $('#projectLinks').slideUp(100)
+      $('#dropDown').removeClass('active')
+      $('a#link1').removeClass('active')
+      $('a#link3').removeClass('active2')
+      $('a#link4').removeClass('active')
+      $('a#link2').removeClass('active3')
+      $('#dropDown').css('padding-top', '14px')
+    }
+    link2Clicks += 1;
+    console.log("link2Clicks =" + link2Clicks)
+  })
+})
+
 
 $(document).ready(function() {
 // Tooltip only Text

@@ -56,9 +56,14 @@ header {
 
 #dropDown {
   float: right;
-  padding-left: 40px;
+  /*width: 77%;*/
+  padding-left: 30px;
   padding-top: 14px;
   display:none;
+}
+
+#dropDown .active {
+
 }
 
 #dropDown li{
@@ -77,11 +82,12 @@ header {
 }
 
 #dropdown #link1 {
-  border-right: 1px solid black;
-  padding-right: 5px;
+  /*padding-right: 5px;*/
 }
 
 #dropdown #link2 {
+  padding-left: 5px;
+  border-left: 1px solid black;
   border-right: 1px solid black;
   padding-right: 5px;
 }
@@ -91,6 +97,34 @@ header {
   padding-right: 5px;
 }
 
+#dropDown .active {
+  opacity: .5;
+  color: grey;
+}
+
+#dropDown .active2 {
+  opacity: .5;
+  border-color: grey;
+  color: grey;
+}
+
+/*#dropDown .active3 {
+  background-color: grey;
+}*/
+
+#projectLinks {
+  position: absolute;
+  display: none;
+  left: 28%;
+  top: 65%;
+}
+
+#projectLinks a {
+  font-size: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
 
 /*#leftNav {
 	float: left;
@@ -149,7 +183,7 @@ img {
 
 #vidHolder {
 	position: absolute;
-	top: 60;
+	top: 100;
 	width:100%;
 	background-color: white;
 
