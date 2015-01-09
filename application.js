@@ -50,36 +50,45 @@ $(document).ready(function(){
   }
 });
 
+// mobile about me scroll
 $(document).ready(function(){
-  $('a#l').click(function(){
+  $('a#link1').click(function(){
     $('#middle').ScrollTo();
   })
 })
-
+//web about me scroll
 $(document).ready(function(){
   $('a#biglink1').click(function(){
     $('#middle').ScrollTo();
   })
 })
-
+// mobile chatapp scroll
 $(document).ready(function(){
-  $('#chatAppLink').click(function(){
+  $('a#chatAppLink').click(function(){
     $('#projects').ScrollTo();
   })
 })
 
 $(document).ready(function(){
   $('a#chatAppLink').click(function(){
-    $('#chatter').ScrollTo();
+    $('#projects').ScrollTo();
   })
 })
 
 $(document).ready(function(){
   $('a#calculatorLink').click(function(){
-    $('#calculator').ScrollTo();
+    $('#projects').ScrollTo();
   })
 })
 
+//web connect scroll
+$(document).ready(function(){
+  $('a#link3').click(function(){
+    $('#connect').ScrollTo();
+  })
+})
+
+//web connect scroll
 $(document).ready(function(){
   $('a#biglink3').click(function(){
     $('#connect').ScrollTo();

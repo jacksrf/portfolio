@@ -13,6 +13,33 @@
   src: url('petita/PetitaMedium.ttf');
 }
 
+button {
+  text-decoration: none;
+  color: black;
+}
+
+button:active {
+  text-decoration: none;
+  color: black;
+}
+
+button:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.projectButton {
+  text-decoration: none;
+  color: black;
+}
+
+.projectButton:visited {
+  color: black;
+}
+
+.projectButton:active {
+  color: black;
+}
 
 header {
 	width:100%;
@@ -305,6 +332,7 @@ img {
 	background-color: white;
 	border: 1px solid black;
 	outline: 0;
+  text-decoration: none;
 }
 
 .project button:hover {
