@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" media="(max-width: 768px)" href="small.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -87,14 +90,18 @@
     <div id="projects">
       <!-- <h1>PROJECTS</h1> -->
       <div id="projectsContainer">
+
         <div class="project" id="chatter">
           <h2>CHATTER</h2>
           <img src="chatter.png">
           <button class="projectButton"><a class="projectButton" href="/chatapp2/index.html">DEMO</a></button>
         </div>
+
         <div class="project" id="calculator">
           <h2>CALCULATOR</h2>
+
           <img src="calculator.png">
+
           <button class="projectButton"><a class="projectButton" href="/calculator/index.html">DEMO</a></button>
         </div>
       </div>
@@ -121,7 +128,7 @@
           </div>
           <div class="rows" id="row3">
             <div class="socialHolders"><a href="https://github.com/jacksrf" class="masterTooltip"  title="CLICK TO GO TO GITHUB PROFILE"><img src="social/github.png"></a></div>
-            <div class="socialHolders"><a href="https://angel.co/jacksontrey" class="masterTooltip" title="CLICK TO GO TO ANGELIST PROFILE"><img src="social/angel.png"></a></div>
+            <div class="socialHolders"><a href="https://angel.co/jacksontrey" class="masterTooltip" title="CLICK TO GO TO ANGELIST PROFILE"><img id="angel" src="social/angel2.png"></a></div>
           </div>
         </div>
       </div>
@@ -129,6 +136,7 @@
 
     <script src="jquery-1.11.2.min.js"></script>
     <script src="jquery-scrollto.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
     <script src="application.js"></script>
   </body>
 </html>
