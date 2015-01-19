@@ -260,12 +260,18 @@ img {
 	margin-top: 30px;
 }
 
-.container p {
+.container ul {
 	height: 250px;
 	font-family: 'petitaLight', Arial, sans-serif;
 	margin: auto;
 	text-align: center;
 	margin-top: 50px;
+}
+
+#double li {
+  width: 50%;
+  display: inline;
+  float: left;
 }
 
 #projects {

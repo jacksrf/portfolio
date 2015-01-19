@@ -5,9 +5,9 @@
     <link rel="stylesheet" type="text/css" media="(max-width: 768px)" href="small.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
+    <!-- // <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+    // <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
+    // <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -69,21 +69,48 @@
             <img class="icons" src="png/develope.png">
           </div>
           <img class="arrow" src="png/arrowdown.png">
-          <p>Proficent in Javascript and Ruby. My Javascript experience is in NodeJS, AngularJS, and ExpressJS. With Ruby, there is both Sinatra and Rails backgrounds.</p>
+          <ul>
+            <li>Javascript</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>BackboneJS</li>
+          <!-- </ul>
+          <ul> -->
+            <li>Ruby</li>
+            <li>Sinatra</li>
+            <li>Rails</li>
+          <!-- </ul>
+          <ul> -->
+            <li>RESTful services</li>
+            <li>SQL</li>
+            <li>CRUD</li>
+            <li>AJAX</li>
+          </ul>
         </div>
         <div class="container" id="designHolder">
           <div class="circle" id="design">
             <img class="icons" src="png/design.png">
           </div>
           <img class="arrow" src="png/arrowdown.png">
-          <p>HTML CSS jQuery BootstrapJS AngularJS</p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Bootstrap</li>
+            <li>jQuery</li>
+            <li>AngularJS</li>
+            <li>EmberJS</li>
+          </ul>
         </div>
         <div class="container" id="innovateHolder">
           <div class="circle" id="innovate">
             <img class="icons" src="png/innovate.png">
           </div>
           <img class="arrow" src="png/arrowdown.png">
-          <p>boom boom boom boom boom boom boom boom boom boom boom boom boom boom boom boom boom boom  </p>
+          <ul>
+            <li>Start-ups</li>
+            <li>Techstars</li>
+            <li>Start-ups</li>
+            <li>Start-ups</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -110,9 +137,11 @@
       <div id="email">
         <div id="formHolder">
           <h1>CONNECT</h1>
-          <input id="nameInput" type="text" placeholder="NAME" required>
-          <input id="emailInput" type="email" placeholder="EMAIL" required>
-          <textarea id="messageInput" type="text" placeholder="MESSAGE" required></textarea>
+          <form id="form" action="secure_email.php" method="post">
+            <input id="nameInput" type="text" name="vname" placeholder="NAME" required>
+            <input id="emailInput" type="email" name="vemail" placeholder="EMAIL" required>
+            <textarea id="messageInput" type="text" name="msg" placeholder="MESSAGE" required></textarea>
+          </form>
           <button id="send">SEND</button>
         </div>
       </div>
