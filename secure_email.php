@@ -1,22 +1,4 @@
 <?php
-if(isset($_POST["submit"])){
-//Checking for blank Fields..
-if($_POST["vname"]==""||$_POST["vemail"]==""||$_POST["sub"]==""||$_POST["msg"]==""){
-echo "Fill All Fields..";
-}else{
-// Check if the "Sender's Email" input field is filled out
-$email=$_POST['vemail'];
-
- // Sanitize e-mail address
- $email =filter_var($email, FILTER_SANITIZE_EMAIL);
-
- // Validate e-mail address
- $email= filter_var($email, FILTER_VALIDATE_EMAIL);
-
- if (!$email){
-echo "Invalid Sender's Email";
- }
- else{
  $subject = $_POST['New Contact from Portfolio Website'];
 
  $message = $_POST['msg'];
@@ -29,7 +11,4 @@ echo "Invalid Sender's Email";
  // Send mail by PHP Mail Function
  mail("jacksrf@gmail.com", $subject, $message, $headers);
  echo "Your mail has been sent successfuly ! Thank you for your feedback";
- }
-}
-}
 ?>
