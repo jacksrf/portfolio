@@ -17,12 +17,11 @@ $email=$_POST['vemail'];
 echo "Invalid Sender's Email";
  }
  else{
- $subject = $_POST['sub'];
+ $subject = $_POST['New Contact from Portfolio Website'];
 
  $message = $_POST['msg'];
 
  $headers = 'From:'. $email2 . "\r\n"; // Sender's Email
- $headers .= 'Cc:'. $email2 . "\r\n"; // Carbon copy to Sender
 
  // message lines should not exceed 70 characters (PHP rule), so wrap it
  $message = wordwrap($message, 70);
