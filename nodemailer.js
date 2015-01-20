@@ -21,7 +21,7 @@ submit.addEventListener('click', function() {
 // setup e-mail data with unicode symbols
             var mailOptions = {
                 from: 'Contact Alert <thethirdcontactform@gmail.com>', // sender address
-                to: 'jacksrf@email.com'
+                to: 'jacksrf@email.com',
                 subject: 'New email from your website contact form', // Subject line
                 text: visitorMessage.value + '///// You may contact ' + visitorName.value + ' at: ' + visitorEmail.value // plaintext body
 
