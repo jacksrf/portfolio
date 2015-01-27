@@ -383,20 +383,28 @@ img {
 }
 
 .arrow {
-  width: 35%;
-	margin-left: 32%;
-	margin-top: 9%;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  width: 100%;
 }
 
-.container p {
-	height: 200px;
+.arrowImg {
+  margin: auto;
+}
+
+.container ul {
+	height: 100px;
 	font-family: 'petitaLight', Arial, sans-serif;
 	margin: auto;
 	text-align: center;
-	margin-top: 50px;
-  margin-left: 11px;
+	margin-top: 20px;
+  margin: auto;
   line-height: 23px;
   letter-spacing: 1px;
+  width: 90%;
 }
 
 #projects {
@@ -432,6 +440,7 @@ img {
 	height: 650px;
 	margin: auto;
 	display: block;
+  padding-top: 30px;
 }
 
 #projects h1 {
@@ -451,12 +460,13 @@ img {
 }
 
 div#chatter {
-  margin-bottom: 40%;
-  margin-top: 30px;
+  margin-bottom: 40px;
+
+  /*margin: auto;*/
 }
 
 div#calculator {
-  margin-top: 40%
+  margin-top: 40px;
 }
 
 .project h2 {
@@ -496,6 +506,13 @@ div#calculator {
   color: black;
 }
 
+.project p {
+  width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
 .projectButton {
   text-decoration: none;
   color: black;
@@ -516,7 +533,7 @@ div#calculator {
 
 #connect {
 	position: absolute;
-	top: 4350px;
+	top: 4250px;
 	width: 100%;
 	height: 700px;
 	/*border-top: 1px solid black;*/
