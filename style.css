@@ -222,10 +222,24 @@ img {
 
 #middle {
 	position: absolute;
-	top: 850;
+	top: 900;
 	width: 100%;
 	height: 850px;
-	display: flex;
+	display: block;
+}
+
+#aboutmeHeader {
+ padding-top: 10px;
+ width: 50%;
+ /*float: left;*/
+ height: 10%;
+ margin: auto;
+ text-align: center;
+ border-top: 1px solid grey;
+ border-bottom: 1px solid grey;
+ font-family: 'petitaLight', Arial, sans-serif;
+line-height: 72px;
+font-size: 30px;
 }
 
 #aboutMe {
@@ -276,16 +290,29 @@ img {
 
 #projects {
 	position: absolute;
-	top: 1550;
+	top: 1750;
 	width: 100%;
 	height: 675px;
-	display: flex;
+	display: block;
 	/*border-top: 1px solid black;*/
+}
+
+#projectsHeader {
+ width: 50%;
+ /*float: left;*/
+ height: 10%;
+ margin: auto;
+ text-align: center;
+ border-top: 1px solid grey;
+ border-bottom: 1px solid grey;
+ font-family: 'petitaLight', Arial, sans-serif;
+line-height: 72px;
+font-size: 30px;
 }
 
 #projectsContainer {
 	width: 100%;
-	height: 650px;
+	height: 600px;
 	margin: auto;
 	display: flex;
 }
@@ -348,7 +375,7 @@ img {
 
 #connect {
 	position: absolute;
-	top: 2200px;
+	top: 2450px;
 	width: 100%;
 	height: 700px;
 	/*border-top: 1px solid black;*/
@@ -442,14 +469,29 @@ background-color: gray;
 	width: 50%;
 	height: 700px;
 	float: right;
-	display: flex;
+	display: block;
 	/*top: -500px;*/
+}
+
+#socialHeader {
+ width: 100%;
+ /*float: left;*/
+ height: 10%;
+ margin: auto;
+ text-align: center;
+ border-top: 1px solid grey;
+ border-bottom: 1px solid grey;
+ font-family: 'petitaLight', Arial, sans-serif;
+line-height: 72px;
+font-size: 30px;
 }
 
 #social {
 	margin-top: 10%;
 	height: 600px;
 	width: 100%;
+  margin: auto;
+  padding-top: 40px;
 }
 
 .socialHolders {

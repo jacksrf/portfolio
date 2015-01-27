@@ -1,5 +1,5 @@
 //Require the module
-var nodemailer = require('nodemailer');
+var nodemailer = require('node_modules/nodemailer');
 
 //Create the reusable transport
 var transporter = nodemailer.createTransport({
