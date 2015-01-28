@@ -292,6 +292,10 @@ font-size: 30px;
 	margin-top: 50px;
   border: 1px solid grey;
   height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #double li {
