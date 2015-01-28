@@ -395,7 +395,19 @@ img {
   margin: auto;
 }
 
-.container ul {
+.container h3 {
+  width: 80%;
+  font-family: 'petitaLight', Arial, sans-serif;
+	margin: auto;
+  text-align: center;
+  font-size: 35px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container p {
 	height: 100px;
 	font-family: 'petitaLight', Arial, sans-serif;
 	margin: auto;
@@ -404,7 +416,9 @@ img {
   margin: auto;
   line-height: 23px;
   letter-spacing: 1px;
-  width: 90%;
+  width: 80%;
+  border: 1px solid grey;
+  height: 200px;
 }
 
 #projects {
@@ -465,8 +479,18 @@ div#chatter {
   /*margin: auto;*/
 }
 
+div#chatter p {
+  padding-top: 40px;
+  width: 80%;
+}
+
 div#calculator {
   margin-top: 40px;
+}
+
+div#calculator p {
+  width: 80%;
+  padding-top: 60px;
 }
 
 .project h2 {
