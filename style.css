@@ -41,6 +41,11 @@ button:visited {
   color: black;
 }
 
+div#bigNav a {
+  color: black;
+}
+
+
 header {
 	width:100%;
 	height: 5%;
