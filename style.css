@@ -589,6 +589,25 @@ img#angel {
   border-radius: 5%;
 }
 
+div#foot{
+  position: absolute;
+  top: 3300;
+  font-family: 'petitaLight', Arial, sans-serif;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+div#footerContents {
+  margin: auto;
+}
+
+div#footerContents div {
+  font-family: 'petitaLight', Arial, sans-serif;
+  text-align: center;
+  width: 100%
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
