@@ -48,9 +48,13 @@ div#bigNav a {
 
 header {
 	width:100%;
-	height: 5%;
+	height: 100px;
 	/*position: fixed;*/
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
 
 }
@@ -79,7 +83,11 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
 }
 
@@ -152,11 +160,11 @@ img {
 }
 
 #vidHolder {
-	position: absolute;
-	top: 150px;
-	width:100%;
-	background-color: white;
-
+    /* position: absolute; */
+    /* top: 150px; */
+    width: 100%;
+    background-color: white;
+    overflow: visible;
 }
 
 #bgvid {
@@ -201,6 +209,10 @@ img {
 	/*margin-right: 5%;
 	margin-left: 13%;*/
   vertical-align: top;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
   zoom: 1;
 	font-family: 'petitaBold', Arial, sans-serif;
@@ -226,18 +238,19 @@ img {
 }
 
 #middle {
-	position: absolute;
-	top: 900;
-	width: 100%;
-	height: 850px;
-	display: block;
+    /* position: absolute; */
+    /* top: 900; */
+    width: 100%;
+    /* height: 850px; */
+    display: block;
+    overflow: visible;
 }
 
 #aboutmeHeader {
  padding-top: 10px;
  width: 50%;
  /*float: left;*/
- height: 10%;
+ /*height: 10%;*/
  margin: auto;
  text-align: center;
  border-top: 1px solid grey;
@@ -251,7 +264,11 @@ font-size: 30px;
 	margin: auto;
 	width: 100%;
 	height: 800px;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 }
 
 .container {
@@ -265,7 +282,11 @@ font-size: 30px;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 }
 
 .icons {
@@ -310,18 +331,19 @@ font-size: 30px;
 }
 
 #projects {
-	position: absolute;
-	top: 1850;
-	width: 100%;
-	height: 675px;
-	display: block;
-	/*border-top: 1px solid black;*/
+    /* position: absolute; */
+    /* top: 1850; */
+    width: 100%;
+    /* height: 675px; */
+    display: block;
+    /* border-top: 1px solid black; */
+    overflow: visible;
 }
 
 #projectsHeader {
  width: 50%;
  /*float: left;*/
- height: 10%;
+ /*height: 10%;*/
  margin: auto;
  text-align: center;
  border-top: 1px solid grey;
@@ -333,9 +355,15 @@ font-size: 30px;
 
 #projectsContainer {
 	width: 100%;
-	height: 600px;
+	/*height: 600px;*/
 	margin: auto;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  margin: 30px 0px;
+  overflow: visible;
 }
 
 #projects h1 {
@@ -406,19 +434,28 @@ font-size: 30px;
 }
 
 #connect {
-	position: absolute;
-	top: 2550px;
-	width: 100%;
-	height: 700px;
-	/*border-top: 1px solid black;*/
-	display: flex;
+    /* position: absolute; */
+    /* top: 2550px; */
+    width: 100%;
+    /* height: 700px; */
+    /* border-top: 1px solid black; */
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    overflow: visible;
 }
 
 #email {
 	margin: auto;
 	width: 50%;
 	height: 500px;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 	font-family: 'petitaLight', Arial, sans-serif;
 	font-size: 2em;
 }
@@ -496,26 +533,28 @@ background-color: gray;
 }
 
 #socialSection {
-	/*position: absolute;*/
-	margin: auto;
-	width: 50%;
-	height: 700px;
-	float: right;
-	display: block;
-	/*top: -500px;*/
+    /* position: absolute; */
+    margin: auto;
+    width: 50%;
+    /* height: 700px; */
+    float: right;
+    display: block;
+    /* top: -500px; */
+    overflow: visible;
 }
 
 #socialHeader {
- width: 100%;
- /*float: left;*/
- height: 10%;
- margin: auto;
- text-align: center;
- border-top: 1px solid grey;
- border-bottom: 1px solid grey;
- font-family: 'petitaLight', Arial, sans-serif;
-line-height: 72px;
-font-size: 30px;
+    width: 100%;
+    /* float: left; */
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-family: 'petitaLight', Arial, sans-serif;
+    line-height: 72px;
+    font-size: 30px;
+    margin-top: 50px;
 }
 
 #social {
@@ -531,7 +570,11 @@ font-size: 30px;
 	width: 45%;
 	border: 1px solid black;
 	margin: auto;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 
 }
 
@@ -554,7 +597,11 @@ font-size: 30px;
 }
 .rows {
 	height: 200px;
-	display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
 }
 
 input, textarea{
@@ -589,13 +636,18 @@ img#angel {
   border-radius: 5%;
 }
 
-div#foot{
-  position: absolute;
-  top: 3300;
-  font-family: 'petitaLight', Arial, sans-serif;
+div#foot {
+    /* position: absolute; */
+    /* top: 3300; */
+    font-family: 'petitaLight', Arial, sans-serif;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
-  width: 100%;
-  margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: visible;
 }
 
 div#footerContents {

@@ -64,16 +64,16 @@ $(document).ready(function(){
 })
 // mobile chatapp scroll
 $(document).ready(function(){
-  $('a#chatAppLink').click(function(){
+  $('a#biglink2').click(function(){
     $('#projects').ScrollTo();
   })
 })
 
-$(document).ready(function(){
-  $('a#chatAppLink').click(function(){
-    $('#projects').ScrollTo();
-  })
-})
+// $(document).ready(function(){
+//   $('a#chatAppLink').click(function(){
+//     $('#projects').ScrollTo();
+//   })
+// })
 
 $(document).ready(function(){
   $('a#calculatorLink').click(function(){

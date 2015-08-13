@@ -1,82 +1,17 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'email-node' ]
-2 info using npm@1.4.28
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.7.5
 3 info using node@v0.10.33
-4 verbose cache add [ 'email-node', null ]
-5 verbose cache add name=undefined spec="email-node" args=["email-node",null]
-6 verbose parsed url { protocol: null,
-6 verbose parsed url   slashes: null,
-6 verbose parsed url   auth: null,
-6 verbose parsed url   host: null,
-6 verbose parsed url   port: null,
-6 verbose parsed url   hostname: null,
-6 verbose parsed url   hash: null,
-6 verbose parsed url   search: null,
-6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'email-node',
-6 verbose parsed url   path: 'email-node',
-6 verbose parsed url   href: 'email-node' }
-7 silly lockFile 0473cf0d-email-node email-node
-8 verbose lock email-node /Users/rolanjackson/.npm/0473cf0d-email-node.lock
-9 silly lockFile 0473cf0d-email-node email-node
-10 silly lockFile 0473cf0d-email-node email-node
-11 verbose addNamed [ 'email-node', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile b13179ad-email-node email-node@
-14 verbose lock email-node@ /Users/rolanjackson/.npm/b13179ad-email-node.lock
-15 silly addNameRange { name: 'email-node', range: '*', hasData: false }
-16 verbose request where is /email-node
-17 verbose request registry https://registry.npmjs.org/
-18 verbose request id be360c54b4d0a0b8
-19 verbose url raw /email-node
-20 verbose url resolving [ 'https://registry.npmjs.org/', './email-node' ]
-21 verbose url resolved https://registry.npmjs.org/email-node
-22 verbose request where is https://registry.npmjs.org/email-node
-23 info trying registry request attempt 1 at 17:58:59
-24 http GET https://registry.npmjs.org/email-node
-25 http 404 https://registry.npmjs.org/email-node
-26 verbose headers { date: 'Mon, 19 Jan 2015 22:58:59 GMT',
-26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-26 verbose headers   'content-type': 'application/json',
-26 verbose headers   'cache-control': 'max-age=0',
-26 verbose headers   'content-length': '52',
-26 verbose headers   'accept-ranges': 'bytes',
-26 verbose headers   via: '1.1 varnish',
-26 verbose headers   age: '0',
-26 verbose headers   'x-served-by': 'cache-atl6231-ATL',
-26 verbose headers   'x-cache': 'MISS',
-26 verbose headers   'x-cache-hits': '0',
-26 verbose headers   'x-timer': 'S1421708339.530063,VS0,VE24',
-26 verbose headers   'keep-alive': 'timeout=10, max=50',
-26 verbose headers   connection: 'Keep-Alive' }
-27 silly registry.get cb [ 404,
-27 silly registry.get   { date: 'Mon, 19 Jan 2015 22:58:59 GMT',
-27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 silly registry.get     'content-type': 'application/json',
-27 silly registry.get     'cache-control': 'max-age=0',
-27 silly registry.get     'content-length': '52',
-27 silly registry.get     'accept-ranges': 'bytes',
-27 silly registry.get     via: '1.1 varnish',
-27 silly registry.get     age: '0',
-27 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
-27 silly registry.get     'x-cache': 'MISS',
-27 silly registry.get     'x-cache-hits': '0',
-27 silly registry.get     'x-timer': 'S1421708339.530063,VS0,VE24',
-27 silly registry.get     'keep-alive': 'timeout=10, max=50',
-27 silly registry.get     connection: 'Keep-Alive' } ]
-28 silly lockFile b13179ad-email-node email-node@
-29 silly lockFile b13179ad-email-node email-node@
-30 error 404 404 Not Found: email-node
-30 error 404
-30 error 404 'email-node' is not in the npm registry.
-30 error 404 You should bug the author to publish it
-30 error 404
-30 error 404 Note that you can also install from a
-30 error 404 tarball, folder, or http url, or git url.
-31 error System Darwin 14.1.0
-32 error command "node" "/usr/local/bin/npm" "install" "email-node"
-33 error cwd /Users/rolanjackson/GA/WDI/portfolio
-34 error node -v v0.10.33
-35 error npm -v 1.4.28
-36 error code E404
-37 verbose exit [ 1, true ]
+4 verbose stack Error: ENOENT, open '/Users/rolanjackson/GA/WDI/portfolio/package.json'
+5 verbose cwd /Users/rolanjackson/GA/WDI/portfolio
+6 error Darwin 14.5.0
+7 error argv "node" "/usr/local/bin/npm" "start"
+8 error node v0.10.33
+9 error npm  v2.7.5
+10 error path /Users/rolanjackson/GA/WDI/portfolio/package.json
+11 error code ENOENT
+12 error errno 34
+13 error enoent ENOENT, open '/Users/rolanjackson/GA/WDI/portfolio/package.json'
+13 error enoent This is most likely not a problem with npm itself
+13 error enoent and is related to npm not being able to find a file.
+14 verbose exit [ 34, true ]
